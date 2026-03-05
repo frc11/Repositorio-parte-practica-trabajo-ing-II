@@ -1,7 +1,7 @@
 # 3. Prueba de Regresión
 
 ## Concepto Teórico
-La prueba de regresión es la ejecución repetida de pruebas previas. Su objetivo es asegurar que un cambio en el software (como agregar una nueva funcionalidad o corregir un bug) no propague efectos colaterales no deseados ni rompa funciones que antes operaban correctamente[cite: 377, 378].
+La prueba de regresión es la ejecución repetida de pruebas previas. Su objetivo es asegurar que un cambio en el software (como agregar una nueva funcionalidad o corregir un bug) no propague efectos colaterales no deseados ni rompa funciones que antes operaban correctamente.
 
 ## Escenario Práctico
 El mes pasado programamos y probamos la función `calcularTotalReparacion`. Hoy, el negocio nos pide agregar una nueva funcionalidad: **Descuentos para clientes frecuentes**. 

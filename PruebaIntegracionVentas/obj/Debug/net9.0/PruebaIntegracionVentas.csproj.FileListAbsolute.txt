@@ -1,0 +1,14 @@
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaIntegracionVentas\bin\Debug\net9.0\PruebaIntegracionVentas.exe
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaIntegracionVentas\bin\Debug\net9.0\PruebaIntegracionVentas.deps.json
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaIntegracionVentas\bin\Debug\net9.0\PruebaIntegracionVentas.runtimeconfig.json
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaIntegracionVentas\bin\Debug\net9.0\PruebaIntegracionVentas.dll
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaIntegracionVentas\bin\Debug\net9.0\PruebaIntegracionVentas.pdb
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaIntegracionVentas\obj\Debug\net9.0\PruebaIntegracionVentas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaIntegracionVentas\obj\Debug\net9.0\PruebaIntegracionVentas.AssemblyInfoInputs.cache
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaIntegracionVentas\obj\Debug\net9.0\PruebaIntegracionVentas.AssemblyInfo.cs
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaIntegracionVentas\obj\Debug\net9.0\PruebaIntegracionVentas.csproj.CoreCompileInputs.cache
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaIntegracionVentas\obj\Debug\net9.0\PruebaIntegracionVentas.dll
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaIntegracionVentas\obj\Debug\net9.0\refint\PruebaIntegracionVentas.dll
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaIntegracionVentas\obj\Debug\net9.0\PruebaIntegracionVentas.pdb
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaIntegracionVentas\obj\Debug\net9.0\PruebaIntegracionVentas.genruntimeconfig.cache
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaIntegracionVentas\obj\Debug\net9.0\ref\PruebaIntegracionVentas.dll

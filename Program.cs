@@ -1,0 +1,1 @@
+﻿Polleria.Tests.VentasTestsRunner.RunTests();

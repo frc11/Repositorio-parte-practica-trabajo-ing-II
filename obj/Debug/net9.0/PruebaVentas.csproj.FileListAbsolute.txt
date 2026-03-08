@@ -1,0 +1,14 @@
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaVentas\bin\Debug\net9.0\PruebaVentas.exe
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaVentas\bin\Debug\net9.0\PruebaVentas.deps.json
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaVentas\bin\Debug\net9.0\PruebaVentas.runtimeconfig.json
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaVentas\bin\Debug\net9.0\PruebaVentas.dll
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaVentas\bin\Debug\net9.0\PruebaVentas.pdb
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaVentas\obj\Debug\net9.0\PruebaVentas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaVentas\obj\Debug\net9.0\PruebaVentas.AssemblyInfoInputs.cache
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaVentas\obj\Debug\net9.0\PruebaVentas.AssemblyInfo.cs
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaVentas\obj\Debug\net9.0\PruebaVentas.csproj.CoreCompileInputs.cache
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaVentas\obj\Debug\net9.0\PruebaVentas.dll
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaVentas\obj\Debug\net9.0\refint\PruebaVentas.dll
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaVentas\obj\Debug\net9.0\PruebaVentas.pdb
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaVentas\obj\Debug\net9.0\PruebaVentas.genruntimeconfig.cache
+C:\Users\Valentino\OneDrive\Desktop\Polleria\PruebaVentas\obj\Debug\net9.0\ref\PruebaVentas.dll

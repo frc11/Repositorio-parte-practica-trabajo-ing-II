@@ -1,0 +1,31 @@
+@* Archivo: Views/Ventas/Partials/_VentaPromocionItem.cshtml *@
+@model VentasPromocionesVM.VentaPromocionVM
+
+<div class="row detalle-item-promocion align-items-center mb-3 p-2 border rounded">
+    <div class="col-md-6">
+        <label class="form-label">Promoción</label>
+        <select asp-for="IdPromocion" class="form-control promocion-search">
+            @if (Model.IdPromocion > 0)
+            {
+                <option value="@Model.IdPromocion" selected>@Model.NombrePromocion</option>
+            }
+        </select>
+        <span asp-validation-for="IdPromocion" class="text-danger"></span>
+    </div>
+    <div class="col-md-3">
+        <label asp-for="Cantidad" class="form-label">Cantidad</label>
+        <input asp-for="Cantidad" type="number" min="1" class="form-control cantidad-promocion" value=""/>
+        <span asp-validation-for="Cantidad" class="text-danger"></span>
+    </div>
+    
+    <input type="hidden" asp-for="PrecioPromo" class="precio-promo-hidden">
+    <input type="hidden" asp-for="CostoPromo" class="costo-promo-hidden">
+
+    <div class="col-md-2">
+        <label class="form-label">Subtotal</label>
+        <p class="form-control-plaintext fw-bold subtotal-promocion-display">$0.00</p>
+    </div>
+    <div class="col-md-1 text-end">
+        <button type="button" class="btn btn-danger btn-sm btn-eliminar-promocion">&times;</button>
+    </div>
+</div>

@@ -1,0 +1,34 @@
+using System.ComponentModel.DataAnnotations;
+namespace DetallesVentasVM;
+
+public class DetalleVentaVM
+{
+    [Required(ErrorMessage = "Debe seleccionar un producto.")]
+    [Range(1, int.MaxValue, ErrorMessage = "Debe seleccionar un producto válido.")]
+    public int IdProducto { get; set; }
+
+    [Required(ErrorMessage = "La cantidad es obligatoria.")]
+    [Range(0.001, 999.999, ErrorMessage = "La cantidad debe ser como mínimo 0,001 y maximo 999,999.")]
+    public decimal Cantidad { get; set; }
+
+    [Required(ErrorMessage = "El costo unitario es obligatorio.")]
+    [Range(0.01, 999999.99, ErrorMessage = "El costo unitario debe ser como mínimo $0,01 y maximo $999.999,99.")]
+    public decimal CostoUnitario { get; set; }
+
+    [Required(ErrorMessage = "El precio unitario es obligatorio.")]
+    [Range(0.01, 999999.99, ErrorMessage = "El precio unitario debe ser como mínimo $0,01 y maximo $999.999,99.")]
+    public decimal PrecioUnitario { get; set; }
+
+    public string NombreProducto { get; set; } = string.Empty;
+    
+    public DetalleVentaVM() { }
+
+    public DetalleVentaVM(DetallesVentas detalle)
+    {
+        IdProducto = detalle.IdProducto;
+        Cantidad = detalle.Cantidad;
+        NombreProducto = $"{detalle.Producto.Producto} (${detalle.Producto.Precio.ToString("N2", CG.CulturaES)}) - S: {detalle.Producto.Stock.ToString("N2", CG.CulturaES)}";
+        CostoUnitario = detalle.Producto.Costo;
+        PrecioUnitario = detalle.Producto.Precio;
+    }
+}

@@ -1,0 +1,101 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+/* Estilo para el botón flotante de 'Añadir' */
+.btn-float {
+    position: fixed; /* Esto hace que se quede fijo en la pantalla */
+    bottom: 30px;    /* A 30px del borde inferior */
+    right: 30px;     /* A 30px del borde derecho */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Esto lo hace redondo */
+    font-size: 24px;
+    line-height: 1.5;   /* Ayuda a centrar el signo '+' verticalmente */
+    z-index: 1000;      /* Asegura que esté por encima de otros elementos */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra sutil */
+}
+/* Estilo para resaltar las coincidencias de búsqueda */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}    
+.summary-card {
+    background-color: #f8f9fa;
+    border-radius: .5rem;
+    padding: 1.5rem;
+    position: sticky;
+    top: 20px;
+}
+
+.summary-item {
+     display: flex;
+     justify-content: space-between;
+     font-size: 1.1rem;
+     margin-bottom: 0.5rem;
+}
+
+.summary-item.total {
+      font-weight: bold;
+      font-size: 1.3rem;
+      border-top: 2px solid #dee2e6;
+      padding-top: 1rem;
+      margin-top: 1rem;
+}
+
+.producto-sin-stock{
+        background-color: #dc3545;
+        
+        /* --- INICIO DE LA CORRECCIÓN --- */
+        /* Estos estilos aseguran que el fondo del div cubra todo el espacio del item <li> padre */
+        padding: 6px 12px;      /* Asumimos un padding estándar de Select2 */
+        margin: -6px -12px;     /* El margen negativo contrarresta el padding del padre */
+        /* --- FIN DE LA CORRECCIÓN --- */
+        
+        pointer-events: none;
+        opacity: 0.7;
+    }
+
+    .summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0;
+    font-size: 1rem;
+}
+
+.summary-item.total {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.summary-card textarea {
+    resize: vertical;
+}

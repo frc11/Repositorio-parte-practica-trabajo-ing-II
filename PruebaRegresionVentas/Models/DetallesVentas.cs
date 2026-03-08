@@ -1,0 +1,37 @@
+using DetallesVentasVM;
+
+public class DetallesVentas
+{
+    public long IdVenta { get; set; }
+    public int IdProducto { get; set; }
+    public decimal Cantidad { get; set; }
+    public decimal CostoUnitario { get; set; }
+    public decimal PrecioUnitario { get; set; }
+    public virtual Productos Producto { get; set; } = null!;
+    private DetallesVentas(){}
+
+    private DetallesVentas(int idProducto, decimal cantidad, decimal costoUnitario, decimal precioUnitario)
+    {
+        IdProducto = idProducto;
+        Cantidad = cantidad;
+        CostoUnitario = costoUnitario;
+        PrecioUnitario = precioUnitario;
+        Producto = null!;
+    }
+
+    public static DetallesVentas CrearDesdeViewModel(DetalleVentaVM detalleVM)
+    {
+        return new DetallesVentas(detalleVM.IdProducto, detalleVM.Cantidad, detalleVM.CostoUnitario, detalleVM.PrecioUnitario);
+    }
+
+
+    public decimal CalcularCosto()
+    {
+        return CostoUnitario * Cantidad;
+    }
+
+    public decimal CalcularPrecio()
+    {
+        return PrecioUnitario * Cantidad;
+    }
+}

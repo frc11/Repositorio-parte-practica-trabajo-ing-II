@@ -1,0 +1,23 @@
+Compilando...
+C:\Users\Valentino\OneDrive\Desktop\Polleria\RepositorioPractica\PruebaRegresionVentas\Controllers\HomeController.cs(3,29): error CS0234: El tipo o el nombre del espacio de nombres 'Models' no existe en el espacio de nombres 'PruebaRegresionVentas' (??falta alguna referencia de ensamblado?) [C:\Users\Valentino\OneDrive\Desktop\Polleria\RepositorioPractica\PruebaRegresionVentas\PruebaRegresionVentas.csproj]
+C:\Users\Valentino\OneDrive\Desktop\Polleria\RepositorioPractica\PruebaRegresionVentas\Views\_ViewImports.cshtml(2,8): warning CS0105: La directiva using para 'PruebaRegresionVentas' aparece previamente en este espacio de nombres [C:\Users\Valentino\OneDrive\Desktop\Polleria\RepositorioPractica\PruebaRegresionVentas\PruebaRegresionVentas.csproj]
+dotnet : 
+En l?nea: 1 Car?cter: 1
++ dotnet run 2>&1 | 
+Out-File run_ascii.log 
+-Encoding ascii; cat 
+run_asc ...
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (:String) [],    
+ RemoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+No se pudo llevar a 
+cabo la compilaci??n. 
+Corrija los errores de 
+compilaci??n y vuelva 
+a ejecutar el proyecto.

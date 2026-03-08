@@ -1,0 +1,17 @@
+﻿  Determinando los proyectos que se van a restaurar...
+  Todos los proyectos est├ín actualizados para la restauraci├│n.
+C:\Program Files\dotnet\sdk\9.0.100-rc.1.24452.12\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.RuntimeIdentifierInference.targets(326,5): message NETSDK1057: Est├í usando una versi├│n preliminar de .NET. Visite: https://aka.ms/dotnet-support-policy [C:\Users\Valentino\OneDrive\Desktop\Polleria\RepositorioPractica\PruebaRegresionVentas\PruebaRegresionVentas.csproj]
+  PruebaUnitariaVentas -> C:\Users\Valentino\OneDrive\Desktop\Polleria\RepositorioPractica\PruebaUnitariaVentas\bin\Debug\net9.0\PruebaUnitariaVentas.dll
+C:\Users\Valentino\OneDrive\Desktop\Polleria\RepositorioPractica\PruebaRegresionVentas\obj\Debug\net9.0\Microsoft.CodeAnalysis.Razor.Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Shared_Error_cshtml.g.cs(26,97): error CS0246: El nombre del tipo o del espacio de nombres 'ErrorViewModel' no se encontr├│ (┬┐falta una directiva using o una referencia de ensamblado?) [C:\Users\Valentino\OneDrive\Desktop\Polleria\RepositorioPractica\PruebaRegresionVentas\PruebaRegresionVentas.csproj]
+C:\Users\Valentino\OneDrive\Desktop\Polleria\RepositorioPractica\PruebaRegresionVentas\obj\Debug\net9.0\Microsoft.CodeAnalysis.Razor.Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Shared_Error_cshtml.g.cs(102,71): error CS0246: El nombre del tipo o del espacio de nombres 'ErrorViewModel' no se encontr├│ (┬┐falta una directiva using o una referencia de ensamblado?) [C:\Users\Valentino\OneDrive\Desktop\Polleria\RepositorioPractica\PruebaRegresionVentas\PruebaRegresionVentas.csproj]
+
+ERROR al compilar.
+
+C:\Users\Valentino\OneDrive\Desktop\Polleria\RepositorioPractica\PruebaRegresionVentas\obj\Debug\net9.0\Microsoft.CodeAnalysis.Razor.Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Shared_Error_cshtml.g.cs(26,97): error CS0246: El nombre del tipo o del espacio de nombres 'ErrorViewModel' no se encontr├│ (┬┐falta una directiva using o una referencia de ensamblado?) [C:\Users\Valentino\OneDrive\Desktop\Polleria\RepositorioPractica\PruebaRegresionVentas\PruebaRegresionVentas.csproj]
+C:\Users\Valentino\OneDrive\Desktop\Polleria\RepositorioPractica\PruebaRegresionVentas\obj\Debug\net9.0\Microsoft.CodeAnalysis.Razor.Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Shared_Error_cshtml.g.cs(102,71): error CS0246: El nombre del tipo o del espacio de nombres 'ErrorViewModel' no se encontr├│ (┬┐falta una directiva using o una referencia de ensamblado?) [C:\Users\Valentino\OneDrive\Desktop\Polleria\RepositorioPractica\PruebaRegresionVentas\PruebaRegresionVentas.csproj]
+    0 Advertencia(s)
+    2 Errores
+
+Tiempo transcurrido 00:00:01.66
+
+Hay actualizaciones de carga de trabajo disponibles. Ejecute "dotnet workload list" para obtener m├ís informaci├│n.
